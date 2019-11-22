@@ -6,14 +6,17 @@
     "preserveConstEnums": true,
     "outFile": "dist/main.js",
     "sourceRoot": "ts",
-    "rootDir": "ts/",
-    "sourceMap": true
+    "outDir": "dist/",
+    "rootDir": "./",
+    "sourceMap": true,
+    "types" : [ "node" ]
   },
   "include": [
     "**/*"
   ],
   "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
+    "node_modules/*",
+    "**/*.spec.ts/*",
+    "dist/*"
   ]
 }
