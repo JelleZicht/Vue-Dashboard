@@ -36,3 +36,4 @@ Optimize the build and automate the build process.
 
 Step 4: 
 Ask people kindly for feedback and more ideas to implement into this project that would actually be usefull to find out.
+
